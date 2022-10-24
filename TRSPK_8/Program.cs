@@ -50,7 +50,7 @@ class MyClass
     }
     public override string ToString()
     {
-        return $"{Letters}{Numbers}";
+        return $"{Letters}@{Numbers}";
     }
 }
 
@@ -65,6 +65,6 @@ struct MyStruct
     }
     public override string ToString()
     {
-        return $"{C}{Value}";
+        return $"{C}@{Value}";
     }
 }
