@@ -35,7 +35,7 @@ class Person<T, K>
     }
     public string GetInformation()
     {
-        return $"Id: {Id.ToString()}; Password: {Password.ToString()}";
+        return $"Id: {Id}; Password: {Password}";
     }
 }
 
